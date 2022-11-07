@@ -103,7 +103,7 @@ Frame.Size = UDim2.new(0, 350, 0, 377)
 UICorner.Parent = Frame
 
 Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.fromRGB(57, 57, 59)
+Frame_2.BackgroundColor3 = Config.Colors.GrayFrame
 Frame_2.Position = UDim2.new(0, 0, -0.00400000019, 0)
 Frame_2.Size = UDim2.new(0, 350, 0, 376)
 
