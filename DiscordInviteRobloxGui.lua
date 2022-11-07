@@ -34,6 +34,7 @@ local Config = {
         White = Color3.fromRGB(255,255,255),
         Gray = Color3.fromRGB(152, 149, 148),
         Blue = Color3.fromRGB(90, 101, 240),
+	GrayFrame = Color3.fromRGB(45, 45, 45),
     },
     Font = {
         Nunito = Enum.Font.Nunito,
@@ -94,7 +95,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(70, 69, 72)
+Frame.BackgroundColor3 = Config.Colors.GrayFrame
 Frame.BackgroundTransparency = 0.500
 Frame.Position = UDim2.new(0.395, 0,0.3, 0)
 Frame.Size = UDim2.new(0, 350, 0, 377)
