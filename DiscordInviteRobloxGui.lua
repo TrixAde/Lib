@@ -34,7 +34,7 @@ local Config = {
         White = Color3.fromRGB(255,255,255),
         Gray = Color3.fromRGB(152, 149, 148),
         Blue = Color3.fromRGB(90, 101, 240),
-	GrayFrame = Color3.fromRGB(30, 30, 30),
+	GrayFrame = Color3.fromRGB(40, 40, 40),
     },
     Font = {
         Nunito = Enum.Font.Nunito,
